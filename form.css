@@ -1,0 +1,123 @@
+.total{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    gap: 30px;
+    align-items: center;
+}
+.total1{
+    position: relative;
+}
+.pg1{
+    font-size: 25px;
+}
+
+.header{
+
+    background: rgb(255,149,0);
+    background: linear-gradient(90deg, rgba(255,149,0,1) 0%, rgba(193,150,188,1) 49%, rgba(255,149,0,1) 100%);
+}
+.header1{
+    font-style: bold;
+}
+.inputBox{
+    position: relative;
+    width: 350px;
+    
+
+    
+}
+.inputBox input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgba(255,255,255,0.25);
+    background: #1d2b3a;
+    border-radius: 5px;
+    outline: none;
+    color: #fff;
+    font-size: 1em;
+    transition: 0.5s;
+}
+.inputBox span{
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    pointer-events: none;
+    font-size: 1em;
+    color: rgba(255,255,255,0.25);
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+.inputBox input:valid~span,
+.inputBox input:focus~span{
+    color: #00dfc4;
+    transform: translate(10px) translate(-7px);
+    font-size: 0.60em;
+    padding: 0 10px;
+    background: #1d2b3a;
+    border-left: 1px solid #00dfc4;
+    border-right: 1px solid #00dfc4;
+    letter-spacing: 0.2em;
+    background: #00dfc4;
+    border-radius: 2px;
+    color: #1d2b3a;
+    
+}
+.inputBox input:valid,
+.inputBox input:focus{
+    border: 1px solid #00dfc4;
+}
+/* .but-con{
+    display: block;   
+} */
+button{
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+}
+.submit{
+    color: #00dfc4;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+    background:#1d2b3a ;
+    cursor: pointer;
+}
+.submit:active{
+    transform: scale(0.96);
+}
+.signup-but{
+    color: #00dfc4;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+    background:#1d2b3a ;
+    cursor: pointer;
+}
+.signup-but:active{
+    transform: scale(0.96);
+}
+/* .submit{ color: #00dfc4;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+    background:#1d2b3a ;
+    width: 6%;
+    height: 4%;
+    position: relative;
+    left: 1005px;
+    top: 35px;
+}.submit:active{
+    transform: scale(0.96);
+}.signup-page{
+    color: #00dfc4;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+    background:#1d2b3a ;
+    width: 6%;
+    height: 4%;
+    position: relative;
+    left: 670px;
+    top: 35px;
+}.signup-page1{
+    background: #00dfc4;
+    text-align: justify;
+    margin-bottom: 10px;
+} */
